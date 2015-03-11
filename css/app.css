@@ -1,0 +1,64 @@
+
+html, body{
+	height: 100%;
+}
+
+#narrative{
+	height: 100%;
+	width: 33.3333%;
+	overflow: scroll;
+	position: absolute;
+}
+
+#map{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.fullscreen, .main-title{
+	min-height:100%;
+	width: 100%;
+}
+
+.fullscreen.not-overflow,
+.fullscreen.not-overflow .content-a {
+    height:100%;
+    overflow:hidden;
+}
+
+/* content centering styles */
+.content-a {
+    display:table;
+    width: 100%;
+
+}
+.content-b {
+	width: 100%;
+    display:table-cell;
+    position:relative;
+    vertical-align:middle;
+    text-align:center;
+}
+
+.content-b h1{
+	font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 70px;
+}
+
+.content-b h2{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+/* background setup */
+.background{
+	background-image: url('../images/splasg_bg.png'); 
+	background-size:cover;
+	background-repeat:no-repeat;
+    /* ie8- graceful degradation */
+    background-position:50% 50%9 !important;
+}
+
+}
