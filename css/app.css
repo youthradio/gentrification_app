@@ -3,6 +3,14 @@ html, body{
 	height: 100%;
 }
 
+h1{
+	font-family: 'Pacifico', cursive;
+}
+
+h2, h3, p{
+	font-family: 'Montserrat', sans-serif;
+}
+
 #narrative{
 	height: 100%;
 	width: 33.3333%;
@@ -41,14 +49,22 @@ html, body{
     text-align:center;
 }
 
+.content-c{
+	position: absolute;
+	bottom: 20px;
+	/*Center on all browser when absolute*/
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0
+}
+
 .content-b h1{
-	font-family: 'Pacifico', cursive;
     color: white;
     font-size: 70px;
 }
 
-.content-b h2{
-	font-family: 'Montserrat', sans-serif;
+.content-b h2, h3{
 	color: white;
 }
 

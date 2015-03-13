@@ -4,7 +4,12 @@ $(document).foundation();
 L.mapbox.accessToken = 'pk.eyJ1IjoibGF1cmVuYmVuaWNob3UiLCJhIjoiQ1BlZGczRSJ9.EVMieITn7lHNi6Ato9wFwg';
 
 // Create a map in the div #map and takes two arguments: the id of the html element and the map id from Mapbox
-L.mapbox.map('map', 'laurenbenichou.l588bal0');
+var map = L.mapbox.map('map', 'laurenbenichou.l588bal0', {
+	zoomControl: false
+}).setView([37.812, -122.294], 15);
+
+map.scrollWheelZoom.disable();
+
 
 /* detect touch */
 if("ontouchstart" in window){
