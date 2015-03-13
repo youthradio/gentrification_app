@@ -3716,6 +3716,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/mouse.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1863,
+		"inputAbbreviatedPath": "\/images\/mouse.png",
+		"outputAbbreviatedPath": "\/images\/mouse.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/mouse_grey.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32179,
+		"inputAbbreviatedPath": "\/images\/mouse_grey.png",
+		"outputAbbreviatedPath": "\/images\/mouse_grey.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/splasg_bg.png": {
 		"fileType": 32768,
 		"ignore": 0,

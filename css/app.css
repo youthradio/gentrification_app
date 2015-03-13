@@ -1,5 +1,5 @@
 
-html, body{
+html, body, .sections_prose{
 	height: 100%;
 }
 
@@ -67,6 +67,38 @@ h2, h3, p{
 .content-b h2, h3{
 	color: white;
 }
+
+section{
+	height: 30%;
+}
+
+#cover{
+	text-align: center;
+	background-color: rgba(147, 181, 186, .8)
+}
+
+#cover img{
+	height: 45px;
+	margin-top: 20px;
+}
+
+#cover h1{
+	font-size: 55px;
+}
+#cover h1, h3{
+	color: #585858;
+}
+
+#cover h3{
+	font-size: 20px;
+}
+
+#cover h2{
+	color: white;
+	font-size: 30px;
+}
+
+
 
 /* background setup */
 .background{
