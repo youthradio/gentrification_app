@@ -139,7 +139,7 @@ section.active{
 }
 
 section:last-child{
-    padding-bottom: 700px;
+    margin-bottom: 500px;
 }
 
 /* Distinguish the "cover page" visually other sections. */

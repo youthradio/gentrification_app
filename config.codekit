@@ -3806,6 +3806,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/bart.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 164374,
+		"inputAbbreviatedPath": "\/images\/bart.png",
+		"outputAbbreviatedPath": "\/images\/bart.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/cranes.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 234589,
+		"inputAbbreviatedPath": "\/images\/cranes.png",
+		"outputAbbreviatedPath": "\/images\/cranes.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/hotel.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 244741,
+		"inputAbbreviatedPath": "\/images\/hotel.png",
+		"outputAbbreviatedPath": "\/images\/hotel.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/mouse.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3835,6 +3868,28 @@
 		"initialSize": 579007,
 		"inputAbbreviatedPath": "\/images\/splasg_bg.png",
 		"outputAbbreviatedPath": "\/images\/splasg_bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/spritesheet.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 219648,
+		"inputAbbreviatedPath": "\/images\/spritesheet.png",
+		"outputAbbreviatedPath": "\/images\/spritesheet.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/station.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 194764,
+		"inputAbbreviatedPath": "\/images\/station.png",
+		"outputAbbreviatedPath": "\/images\/station.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
