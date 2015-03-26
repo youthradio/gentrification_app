@@ -5,23 +5,26 @@
     <!--[if lt IE 9]>
 <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Boomtown</title>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+<title>West Side Stories</title>
 <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="bower_components/foundation/css/foundation.css">
 <link rel="stylesheet" type="text/css" href="bower_components/mapbox.js/mapbox.css">
 <link rel="stylesheet" href="css/app.css" />
+
+<script src="bower_components/underscore/underscore.js"></script>
 <script src="bower_components/mapbox.js/mapbox.js"></script>
 <script src="bower_components/modernizr/modernizr.js"></script>
 </head>
-<body>
+<body class="section-0">
 
   <!-- Splash page -->
-  <div class="fullscreen background parallax" data-img-width="1440" data-img-height="958" data-diff="100">
+<!--   <div id="pan">
+  <div id="splash" class="fullscreen background">
     <div class="content-a">
       <div class="content-b">
-       <h1>Guest Oakland</h1>
+       <h1>West Side Stories</h1>
        <h2>An app about gentrification in Oakland’s west side</h2>
        <div class="content-c">
       <img src="images/mouse.png">
@@ -30,6 +33,7 @@
      </div>
   </div>
 </div>
+</div> -->
 
 
 
@@ -39,49 +43,42 @@
 
 <!-- Content -->
 <article id='narrative'>
-  <div class='sections_prose'>
     <section id='cover' class='cover active'>
-      <h1>Guest Oakland</h1>
+      <h1>West Side Stories</h1>
       <h2>An app about gentrification in Oakland’s west side</h2>
-      <img src="images/mouse_grey.png">
+      <img class="scroll" src="images/mouse_grey.png">
       <h3>scroll</h3>
     </section>
-    <section id='baker'>
-      <h3>221b Baker St.</h3>
-      <p>November 1895. London is shrouded in fog and Sherlock Holmes and Watson pass time restlessly awaiting a new case. "The London criminal is certainly a dull fellow," Sherlock bemoans. "There have been numerous petty thefts," Watson offers in response. Just then a telegram arrives from Sherlock's brother Mycroft with a mysterious case.</p>
+    <section id='bart'>
+      <img src="images/bart.png" class="feature-img">
+      <h3>West Oakland Bart Station</h3>
+      <p>Turf dancing is a form of American street dance that is said to have originated in Oakland, California. According to locals, credit for the term goes to dancer Jeriel Bey, who created it as an acronym for Taking Up Room on the Floor. Prior names for the dance form, like "having fun with it" or "hitting it" didn't seem as marketable. Dance elements include popping, locking, and miming. Others say that the term turf dancing branced from breakdancing as a way to represent where dancers were from (the same as 'blocks' or 'sets') through dance. If you ride through the West Oakland BART station, you just might encounter a Turf dancer, making the most of the crowded train as a moving stage. </p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dQOKKwVzbtA" frameborder="0" allowfullscreen></iframe>
     </section>
-    <section id='aldgate'>
-      <h3>Aldgate Station</h3>
-      <p>Arthur Cadogan West was found dead, head crushed in on train tracks at Aldgate Station at 6AM Tuesday morning. West worked at Woolwich Arsenal on the Bruce-Partington submarine, a secret military project. Plans for the submarine had been stolen and seven of the ten missing papers were found in West's possession. Mycroft implores Sherlock to take the case and recover the three missing papers.</p>
+    <section id='hotel'>
+      <h3>Hotel California</h3>
+      <p>Built in the 1920s, the California Hotel was once a place that welcomed African American artists and musicians when they were discriminated against elsewhere. Then, somewhere around the 1970s--you know what was going on around that time--the neighborhood started to deteriorate. The hotel ran into financial trouble and eventually closed. Fast forward to 2011: the East Bay Asian Local Development Corporation and other supporters pulled together funds for a major renovation. Now, the California Hotel provides 137 units of low-income housing and even has a rooftop garden. </p>
     </section>
-    <section id='london-bridge'>
-      <h3>London Bridge</h3>
-      <p>Holmes and Watson's investigations take them across London. Sherlock deduces that West was murdered elsewhere, then moved to Aldgate Station to create the illusion that he was crushed on the tracks by a train. On their way to Woolwich Sherlock dispatches a telegram to Mycroft at London Bridge: "Send list of all foreign spies known to be in England, with full address."</p>
+    <section id='station'>
+      <h3>16th Street Station</h3>
+      <p>Built in 1912 and no longer in active use, the 16th Street station was once part of Southern Pacific, among the leading employers in Oakland. In its heyday, the station was arguably the largest transportation hub in Oakland and housed the West Coast branch of the very first African American Labor Union in America. It was the last stop for many African Americans leaving the South, making this station known for the second great migration. The station, like many others, went out of business with the transition to private transportation. It is now owned by an affordable housing non-profit with ambitious plans for restoration, and occasionally used for events like haunted houses and film shoots.</p>
     </section>
-    <section id='woolwich'>
-      <h3>Woolwich Arsenal</h3>
-      <p>While investigating at Woolwich Arsenal Sherlock learns that West did not have the three keys&mdash;door, office, and safe&mdash;necessary to steal the papers. The train station clerk mentions seeing an agitated West boarding the 8:15 train to London Bridge. Sherlock suspects West of following someone who had access to the Woolwich chief's keyring with all three keys.</p>
+    <section id='crane'>
+      <h3>The Port</h3>
+      <p>The Port of Oakalnd spans 20 miles of waterfront, from the Bay Bridge through Oakland International Airport. Global trade through the port is valued at $40 billion a year. The port supports about 73,000 jobs in the San Francisco Bay Area.</p>
     </section>
-    <section id='gloucester'>
-      <h3>Gloucester Road</h3>
-      <p>Mycroft responds to Sherlock's telegram and mentions several spies. Hugo Oberstein of 13 Caulfield Gardens catches Sherlock's eye. He heads to the nearby Gloucester Road station to investigate and learns that the windows of Caulfield Gardens open over rail tracks where trains stop frequently.</p>
+    <section id='defermery'>
+      <h3>Defermery Park</h3>
+      <p>The park was named after James de Fremery, who was the founder of the Savings Union Bank of San Francisco (which became Wells Fargo). De Fremery Park was where the Black Panther Party housed their social services administration and political activity. Located in a landmark Victorian house, de Fremery is a hub for youth and adults in West Oakland. In addition to being used for the site of rallies, fundraisers, and even physical training, the park is a distribution point for free groceries and a testing site for sickle-cell anemia.</p>
     </section>
-    <section id='caulfield-gardens'>
-      <h3>13 Caulfield Gardens</h3>
-      <p>Holmes deduces that the murderer placed West atop a stopped train at Caulfield Gardens. The train traveled to Aldgate Station before West's body finally toppled off. Backtracking to the criminal's apartment, Holmes finds a series of classified ads from <em>The Daily Telegraph</em> stashed away. All are under the name Pierrot: "Monday night after nine. Two taps. Only ourselves. Do not be so suspicious. Payment in hard cash when goods delivered."</p>
+    <section id='mural'>
+      <h3>The Mural</h3>
+      <p>U.S. Olympic sprinters Tommie Smith and John Carlos, gold and bronze medalists in the 200 meter, stood at the medal podium during the 1968 Summer Games in Mexico City, bowed their heads and held a black-gloved hand raised as the American National Anthem played during the victory ceremony. This was a mural commemorating this historic Olympic event, with images of the athletes and the phrase, "It only takes a pair of gloves." Unfortunately, if you happen to pass by, you will notice the building and mural have been bulldozed, as part of West Oakland redevelopment plans.</p>
     </section>
-    <section id='telegraph'>
-      <h3>The Daily Telegraph</h3>
-      <p>Holmes and Watson head to The Daily Telegraph and place an ad to draw out the criminal. It reads: "To-night. Same hour. Same place. Two taps. Most vitally important. Your own safety at stake. Pierrot." The trap works and Holmes catches the criminal: Colonel Valentine Walter, the brother of Woolwich Arsenal's chief. He confesses to working for Hugo Oberstein to obtain the submarine plans in order to pay off his debts.</p>
+    <section id='mcclymonds'>
+      <h3>McClymonds High School</h3>
+      <p>McClymonds High School, opened in 1915, is the third oldest school in Oakland and currently the only high school in West Oakland operating under the rules and regulations of the Oakland Unified School District. After an experiment with a Small Schools model, in 2010, McClymonds reconstituted as a comprehensive high school once again, with mostly new staff and teachers. The school has been known for its athletic programs. A few famous alumni from McClymonds are Ron Dellums, MC Hammer, and Bill Russell. </p>
     </section>
-    <section id='charing-cross'>
-      <h3>Charing Cross Hotel</h3>
-      <p>Walter writes to Oberstein and convinces him to meet in the smoking room of the Charing Cross Hotel where he promises additional plans for the submarine in exchange for money. The plan works and Holmes and Watson catch both criminals.</p>
-      <small class='colophon'>
-        Adapted from <a href='http://www.gutenberg.org/files/2346/2346-h/2346-h.htm'>Project Gutenberg</a>
-      </small>
-    </section>
-  </div>
 </article>
 
 

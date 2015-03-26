@@ -2,9 +2,10 @@
   "name": "mapbox.js",
   "main": [
     "mapbox.css",
-    "mapbox.js"
+    "mapbox.js",
+    "images/*"
   ],
-  "version": "2.1.5",
+  "version": "2.1.6",
   "homepage": "https://github.com/mapbox/mapbox.js",
   "authors": ["Mapbox"],
   "description": "Mapbox Javascript API",

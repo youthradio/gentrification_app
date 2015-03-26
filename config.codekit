@@ -1974,60 +1974,94 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/bower_components\/mapbox.js\/images\/layers-2x.png": {
+	"\/bower_components\/mapbox.js\/images\/images\/icons-000000@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1548,
+		"inputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/images\/icons-000000@2x.png",
+		"outputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/images\/icons-000000@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bower_components\/mapbox.js\/images\/images\/icons-ffffff@2x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1548,
+		"inputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/images\/icons-ffffff@2x.png",
+		"outputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/images\/icons-ffffff@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/bower_components\/mapbox.js\/images\/images\/layers-2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2898,
-		"inputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/layers-2x.png",
-		"outputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/layers-2x.png",
+		"inputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/images\/layers-2x.png",
+		"outputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/images\/layers-2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/bower_components\/mapbox.js\/images\/layers.png": {
+	"\/bower_components\/mapbox.js\/images\/images\/layers.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1502,
-		"inputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/layers.png",
-		"outputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/layers.png",
+		"inputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/images\/layers.png",
+		"outputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/images\/layers.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/bower_components\/mapbox.js\/images\/marker-icon-2x.png": {
+	"\/bower_components\/mapbox.js\/images\/images\/marker-icon-2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4033,
-		"inputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/marker-icon-2x.png",
-		"outputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/marker-icon-2x.png",
+		"inputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/images\/marker-icon-2x.png",
+		"outputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/images\/marker-icon-2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/bower_components\/mapbox.js\/images\/marker-icon.png": {
+	"\/bower_components\/mapbox.js\/images\/images\/marker-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1747,
-		"inputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/marker-icon.png",
-		"outputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/marker-icon.png",
+		"inputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/images\/marker-icon.png",
+		"outputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/images\/marker-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/bower_components\/mapbox.js\/images\/marker-shadow.png": {
+	"\/bower_components\/mapbox.js\/images\/images\/marker-shadow.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 797,
-		"inputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/marker-shadow.png",
-		"outputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/marker-shadow.png",
+		"inputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/images\/marker-shadow.png",
+		"outputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/images\/marker-shadow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/bower_components\/mapbox.js\/LICENSE.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/mapbox.js\/LICENSE.md",
+		"outputAbbreviatedPath": "\/bower_components\/mapbox.js\/LICENSE.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/bower_components\/mapbox.js\/mapbox.css": {
 		"fileType": 16,
@@ -3707,6 +3741,62 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/bower_components\/underscore\/karma.conf-sauce.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/underscore\/karma.conf-sauce.js",
+		"outputAbbreviatedPath": "\/bower_components\/underscore\/min\/karma.conf-sauce-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/underscore\/karma.conf.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/underscore\/karma.conf.js",
+		"outputAbbreviatedPath": "\/bower_components\/underscore\/min\/karma.conf-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/underscore\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/underscore\/README.md",
+		"outputAbbreviatedPath": "\/bower_components\/underscore\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bower_components\/underscore\/underscore-min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/underscore\/underscore-min.js",
+		"outputAbbreviatedPath": "\/bower_components\/underscore\/min\/underscore-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/underscore\/underscore.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/underscore\/underscore.js",
+		"outputAbbreviatedPath": "\/bower_components\/underscore\/min\/underscore-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/css\/app.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -3752,7 +3842,7 @@
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,

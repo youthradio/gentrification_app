@@ -1,5 +1,5 @@
 
-html, body, .sections_prose{
+html, body, #narrative{
 	height: 100%;
 }
 
@@ -11,22 +11,17 @@ h2, h3, p{
 	font-family: 'Montserrat', sans-serif;
 }
 
-#narrative{
-	height: 100%;
-	width: 33.3333%;
-	overflow: scroll;
-	position: absolute;
-}
-
-#map{
-	width: 100%;
-	height: 100%;
-	position: absolute;
+#splash{
+    height: 100.1%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9999;
 }
 
 .fullscreen, .main-title{
-	min-height:100%;
-	width: 100%;
+    min-height:100%;
+    width: 100%;
 }
 
 .fullscreen.not-overflow,
@@ -42,7 +37,7 @@ h2, h3, p{
 
 }
 .content-b {
-	width: 100%;
+    width: 100%;
     display:table-cell;
     position:relative;
     vertical-align:middle;
@@ -50,13 +45,13 @@ h2, h3, p{
 }
 
 .content-c{
-	position: absolute;
-	bottom: 20px;
-	/*Center on all browser when absolute*/
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0
+    position: absolute;
+    bottom: 20px;
+    /*Center on all browser when absolute*/
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0
 }
 
 .content-b h1{
@@ -65,37 +60,117 @@ h2, h3, p{
 }
 
 .content-b h2, h3{
-	color: white;
+    color: white;
 }
 
-section{
-	height: 30%;
+#narrative{
+/*	height: 100%;*/
+	width: 33.3333%;
+	min-width:320px;
+	position: absolute;
+   /* padding-bottom: 33.3333%;*/
+    top:0;
+    right:0;
+    bottom:0px;
+    left:0;
+    overflow:auto;
 }
+
+#map{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+/*Distinguishing the cover from the rest*/
 
 #cover{
-	text-align: center;
-	background-color: rgba(147, 181, 186, .8)
+    text-align: center;
+    padding: 10px;
 }
 
 #cover img{
-	height: 45px;
-	margin-top: 20px;
+    height: 45px;
+    margin-top: 20px;
 }
 
 #cover h1{
-	font-size: 55px;
+    font-size: 55px;
 }
 #cover h1, h3{
-	color: #585858;
+    color: #585858;
 }
 
 #cover h3{
-	font-size: 20px;
+    font-size: 20px;
 }
 
 #cover h2{
-	color: white;
-	font-size: 30px;
+    color: white;
+    font-size: 30px;
+}
+
+
+section{
+    padding: 30px;
+    text-align: center;
+	 transition:background 500ms, color 500ms;
+  	-moz-transition:background 500ms, color 500ms;
+  	-webkit-transition:background 500ms, color 500ms;
+  	color: rgba(128,128,128,0);
+  	text-decoration: none;
+  	text-shadow: rgba(64,64,64,1) 0px 0px 10px;
+}
+.feature-img{
+    width: 350px;
+    opacity: .2;
+    transition:opacity 500ms;
+    -moz-transition:opacity 500ms;
+    -webkit-transition:opacity 500ms;
+}
+
+section.active .feature-img{
+    opacity: 1;
+}
+
+section.active{
+    color: white;
+    text-shadow: rgba(64,64,64,0) 0px 0px 4px;
+}
+
+section:last-child{
+    padding-bottom: 700px;
+}
+
+/* Distinguish the "cover page" visually other sections. */
+body.section-0 #map { opacity:0.5; }
+
+
+
+#cover.active{
+    background-color: rgba(147, 181, 186, .8);
+}
+
+#bart.active{
+    background-color: rgba(153, 116, 175, .8);
+}
+#hotel.active{
+    background-color: rgba(54, 132, 166, .8);
+}
+#station.active{
+    background-color: rgba(240, 155, 67, .8);
+}
+#crane.active{
+    background-color: rgba(70, 134, 94, .8);
+}
+#defermery.active{
+    background-color: rgba(220, 103, 164, .8);
+}
+#mural.active{
+    background-color: rgba(245, 219, 194, .8);
+}
+#mcclymonds.active{
+    background-color: rgba(250, 212, 73, .8);
 }
 
 
@@ -109,4 +184,71 @@ section{
     background-position:50% 50%9 !important;
 }
 
+.sprite {
+    background-image: url(../images/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite.active{
+    width: 120px!important;
+    height: 120px!important;
+}
+
+.sprite-cover{display: none;}
+
+.sprite-bart {
+    background-position: -135px -5px;
+}
+
+.sprite-bart.active {
+    background-position: -5px -5px;
+
+}
+
+.sprite-crane {
+   background-position: -355px -5px;
+}
+
+.sprite-crane.active {
+    background-position: -225px -5px;
+}
+
+.sprite-defermery {
+    background-position: -575px -5px;
+}
+.sprite-defermery.active {
+    background-position: -445px -5px;
+}
+
+.sprite-hotel {
+    background-position: -795px -5px;
+}
+
+.sprite-hotel.active {
+    background-position: -665px -5px;
+}
+
+.sprite-mcclymonds {
+    background-position: -1015px -5px;
+}
+
+.sprite-mcclymonds.active {
+    background-position: -885px -5px;
+}
+
+.sprite-mural {
+    background-position: -1235px -5px;
+}
+
+.sprite-mural.active {
+    background-position: -1105px -5px;
+}
+
+.sprite-station {
+    background-position: -1455px -5px;
+}
+
+.sprite-station.active {
+    background-position: -1325px -5px;
 }
