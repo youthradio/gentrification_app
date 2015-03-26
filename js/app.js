@@ -37,7 +37,6 @@ var places = { type: 'FeatureCollection', features: [
 spots.eachLayer(function(e){
     var className = 'sprite sprite-' + e.feature.properties.id;
     var coordinates = e.feature.geometry.coordinates;
-    var w = e.feature.properties.w;
     var cssIcon = L.divIcon({
       // Specify a class name we can refer to in CSS.
       className: className,
@@ -49,7 +48,7 @@ spots.eachLayer(function(e){
 
 // Array of story section elements.
 var sections = $('section');
-var narrative = $("#narrative")[0]
+var narrative = $("#narrative")[0];
 var currentId = 'cover';
 
 function setId(newId){
@@ -59,11 +58,11 @@ function setId(newId){
   spots.eachLayer(function(layer){
     if(layer.feature.properties.id === newId){
       var coordinates = layer.feature.geometry.coordinates;
-      var all_el = $(".sprite")
-      all_el.removeClass("active")
-      var el = $("div[class*='" + newId + "']")[0]
-      el.className = el.className + " active"
-      map.setView(coordinates, 16)
+      var all_el = $(".sprite");
+      all_el.removeClass("active");
+      var el = $("div[class*='" + newId + "']")[0];
+      el.className = el.className + " active";
+      map.setView(coordinates, 16);
     }
   });
   // highlight the current section
@@ -74,17 +73,16 @@ function setId(newId){
     // so that we know to do nothing at the beginning
     // of this function if it hasn't changed between calls
     currentId = newId;
-    return true
 }
 
 
-narrative.onscroll = function(e) {
+narrative.onscroll = function() {
     var narrativeHeight = narrative.offsetHeight;
     var newId = currentId;
     if (newId === 'cover'){
-      $('body').attr('class', 'section-0')
+      $('body').attr('class', 'section-0');
     }else{
-      $('body').attr('class', ' ')
+      $('body').attr('class', ' ');
     }
     // Find the section that's currently scrolled-to.
     // We iterate backwards here so that we find the topmost one.
@@ -93,46 +91,9 @@ narrative.onscroll = function(e) {
         if (rect.top >= 0 && rect.top <= narrativeHeight) {
             newId = sections[i].id;
         }
-    };
+    }
     setId(newId);
 };
-
-// Bind to scroll events to find the active section.
-// window.onscroll = _(function() {
-//   var newId = currentId
-//   if (newId === 'cover'){
-//      $('body').attr('class', 'section-0')
-//    }
-    
-//   // IE 8
-//   if (window.pageYOffset === undefined) {
-//     var y = document.documentElement.scrollTop;
-//     var h = document.documentElement.clientHeight;
-//   } else {
-//     var y = window.pageYOffset;
-//     var h = window.innerHeight;;
-//   }
-
-//   // If scrolled to the very top of the page set the first section active.
-//   if (y === 0) return setId('cover');;
-
-//   // Otherwise, conditionally determine the extent to which page must be
-//   // scrolled for each section. The first section that matches the current
-//   // scroll position wins and exits the loop early.
-//   var memo = 0;
-//   var buffer = (h * 0.333);
-//   var active = _(sections).any(function(el, index) {
-//     var newId = sections[index].id
-//     memo += el.offsetHeight*0.5;
-//     return y < (memo - buffer) ? setId(newId) : false;
-//   });
-
-//   // If no section was set active the user has scrolled past the last section.
-//   // Set the last section active.
-  
-//   var lastSection = sections[sections.length - 1].id
-//   if (!active) setId(lastSection);
-// }).debounce(50);
 
 setId('cover');
 

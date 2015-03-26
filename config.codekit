@@ -1961,7 +1961,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/icons-000000@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/mapbox.js\/images\/icons-ffffff@2x.png": {
 		"fileType": 32768,
@@ -1972,7 +1972,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/icons-ffffff@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/mapbox.js\/images\/images\/icons-000000@2x.png": {
 		"fileType": 32768,
@@ -1983,7 +1983,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/images\/icons-000000@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/mapbox.js\/images\/images\/icons-ffffff@2x.png": {
 		"fileType": 32768,
@@ -1994,7 +1994,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/images\/icons-ffffff@2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/mapbox.js\/images\/images\/layers-2x.png": {
 		"fileType": 32768,
@@ -2005,7 +2005,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/images\/layers-2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/mapbox.js\/images\/images\/layers.png": {
 		"fileType": 32768,
@@ -2016,7 +2016,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/images\/layers.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/mapbox.js\/images\/images\/marker-icon-2x.png": {
 		"fileType": 32768,
@@ -2027,7 +2027,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/images\/marker-icon-2x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/mapbox.js\/images\/images\/marker-icon.png": {
 		"fileType": 32768,
@@ -2038,7 +2038,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/images\/marker-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/mapbox.js\/images\/images\/marker-shadow.png": {
 		"fileType": 32768,
@@ -2049,7 +2049,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/mapbox.js\/images\/images\/marker-shadow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/mapbox.js\/LICENSE.md": {
 		"enableFootnoteSupport": 0,
@@ -3298,7 +3298,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizr\/media\/Modernizr 2 Logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizr\/modernizr.js": {
 		"fileType": 64,
@@ -3350,7 +3350,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizr\/test\/caniuse_files\/alpha.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/apng_test.png": {
 		"fileType": 32768,
@@ -3361,7 +3361,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizr\/test\/caniuse_files\/apng_test.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/before-after.png": {
 		"fileType": 32768,
@@ -3372,7 +3372,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizr\/test\/caniuse_files\/before-after.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/form_validation.html": {
 		"fileType": 8192,
@@ -3403,7 +3403,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizr\/test\/caniuse_files\/green5x5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/hashchange.html": {
 		"fileType": 8192,
@@ -3443,7 +3443,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizr\/test\/caniuse_files\/mathml_ref.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/modernizr-1.7.min.js": {
 		"fileType": 64,
@@ -3465,7 +3465,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizr\/test\/caniuse_files\/png_alpha_result.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/pushstate.html": {
 		"fileType": 8192,
@@ -3485,7 +3485,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizr\/test\/caniuse_files\/red30x30.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/ruby.png": {
 		"fileType": 32768,
@@ -3496,7 +3496,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizr\/test\/caniuse_files\/ruby.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/stroked-text.png": {
 		"fileType": 32768,
@@ -3507,7 +3507,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizr\/test\/caniuse_files\/stroked-text.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/style.css": {
 		"fileType": 16,
@@ -3527,7 +3527,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizr\/test\/caniuse_files\/svg-html-blur.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/svg_blur.png": {
 		"fileType": 32768,
@@ -3538,7 +3538,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizr\/test\/caniuse_files\/svg_blur.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/table.png": {
 		"fileType": 32768,
@@ -3549,7 +3549,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizr\/test\/caniuse_files\/table.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/text-shadow1.png": {
 		"fileType": 32768,
@@ -3560,7 +3560,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizr\/test\/caniuse_files\/text-shadow1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/text-shadow2.png": {
 		"fileType": 32768,
@@ -3571,7 +3571,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizr\/test\/caniuse_files\/text-shadow2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/windsong_font.png": {
 		"fileType": 32768,
@@ -3582,7 +3582,7 @@
 		"outputAbbreviatedPath": "\/bower_components\/modernizr\/test\/caniuse_files\/windsong_font.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/bower_components\/modernizr\/test\/caniuse_files\/xhtml.html": {
 		"fileType": 8192,
@@ -3815,7 +3815,7 @@
 		"outputAbbreviatedPath": "\/images\/bart.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/cranes.png": {
 		"fileType": 32768,
@@ -3826,7 +3826,18 @@
 		"outputAbbreviatedPath": "\/images\/cranes.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/images\/defermery.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 161634,
+		"inputAbbreviatedPath": "\/images\/defermery.png",
+		"outputAbbreviatedPath": "\/images\/defermery.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/images\/hotel.png": {
 		"fileType": 32768,
@@ -3837,7 +3848,18 @@
 		"outputAbbreviatedPath": "\/images\/hotel.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/images\/hs.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 262945,
+		"inputAbbreviatedPath": "\/images\/hs.png",
+		"outputAbbreviatedPath": "\/images\/hs.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/images\/mouse.png": {
 		"fileType": 32768,
@@ -3848,7 +3870,7 @@
 		"outputAbbreviatedPath": "\/images\/mouse.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/mouse_grey.png": {
 		"fileType": 32768,
@@ -3859,7 +3881,18 @@
 		"outputAbbreviatedPath": "\/images\/mouse_grey.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/images\/mural.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80038,
+		"inputAbbreviatedPath": "\/images\/mural.png",
+		"outputAbbreviatedPath": "\/images\/mural.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/images\/splasg_bg.png": {
 		"fileType": 32768,
@@ -3870,7 +3903,7 @@
 		"outputAbbreviatedPath": "\/images\/splasg_bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/spritesheet.png": {
 		"fileType": 32768,
@@ -3881,7 +3914,7 @@
 		"outputAbbreviatedPath": "\/images\/spritesheet.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/station.png": {
 		"fileType": 32768,
@@ -3892,7 +3925,7 @@
 		"outputAbbreviatedPath": "\/images\/station.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,
