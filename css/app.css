@@ -64,11 +64,11 @@ h2, h3, p{
 }
 
 #narrative{
-/*	height: 100%;*/
-	width: 33.3333%;
-	min-width:320px;
-	position: absolute;
-   /* padding-bottom: 33.3333%;*/
+    /*	height: 100%;*/
+    width: 33.3333%;
+    min-width:320px;
+    position: absolute;
+    /* padding-bottom: 33.3333%;*/
     top:0;
     right:0;
     bottom:0px;
@@ -114,12 +114,12 @@ h2, h3, p{
 section{
     padding: 30px;
     text-align: center;
-	 transition:background 500ms, color 500ms;
-  	-moz-transition:background 500ms, color 500ms;
-  	-webkit-transition:background 500ms, color 500ms;
-  	color: rgba(128,128,128,0);
-  	text-decoration: none;
-  	text-shadow: rgba(64,64,64,1) 0px 0px 10px;
+    transition:background 500ms, color 500ms;
+    -moz-transition:background 500ms, color 500ms;
+    -webkit-transition:background 500ms, color 500ms;
+    color: rgba(128,128,128,0);
+    text-decoration: none;
+    text-shadow: rgba(64,64,64,1) 0px 0px 10px;
 }
 .feature-img{
     width: 350px;
@@ -177,7 +177,7 @@ body.section-0 #map { opacity:0.5; }
 
 /* background setup */
 .background{
-	background-image: url('../images/splasg_bg.png'); 
+	background-image: url('../images/splasg_bg.png');
 	background-size:cover;
 	background-repeat:no-repeat;
     /* ie8- graceful degradation */
@@ -267,30 +267,58 @@ body.section-0 #map { opacity:0.5; }
     height: 100%;
 }
 
-@media (max-width:740px) {
-  p{
-    font-size:12px;
-    line-height:16px;
+@media (max-width:640px) {
+    body{
+        height: 100%;
+        overflow: none;
     }
-  #narrative {
-    position: fixed;
-    width:100%;
-    min-width:100%;
-    height: 300px!important;
-    overflow: scroll;
+
+    p{
+        font-size:12px;
+        line-height:16px;
+    }
+    #cover img{
+        height: 35px;
+        margin-top: -5px;
+    }
+
+    #cover h1{
+        font-size: 25px;
+    }
+    #cover h3{
+        font-size: 15px;
+    }
+
+    #cover h2{
+        font-size: 15px;
+    }
+
+
+    #narrative {
+        position: fixed;
+        width:100%;
+        min-width:100%;
+        height: 33.333%;
+
+    }
+    section{
+       opacity: 0;
+    }
+    section.active{
+        opacity: 1;
     }
     .feature-img{
         width:200px;
     }
-  #map  {
-    width:100%;
-    height:115%;
+    #map  {
+        width:100%;
+        height:115%;
     }
-  }
+}
 
 @media (min-width:1280px) {
-  body {
-    font-size:18px;
-    line-height:24px;
+    body {
+        font-size:18px;
+        line-height:24px;
     }
-  }
+}
