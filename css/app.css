@@ -252,3 +252,31 @@ body.section-0 #map { opacity:0.5; }
 .sprite-station.active {
     background-position: -1325px -5px;
 }
+
+@media (max-width:640px) {
+  p{
+    font-size:12px;
+    line-height:16px;
+    }
+  #narrative {
+    position: fixed;
+    width:100%;
+    min-width:100%;
+    height: 300px!important;
+    overflow: scroll;
+    }
+    .feature-img{
+        width:200px;
+    }
+  #map  {
+    width:100%;
+    height:100%;
+    }
+  }
+
+@media (min-width:1280px) {
+  body {
+    font-size:18px;
+    line-height:24px;
+    }
+  }
