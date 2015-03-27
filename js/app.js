@@ -87,7 +87,7 @@ var places = {
   }, {
     geometry: {
       type: "Point",
-      coordinates: [37.818513, -122.278765]
+      coordinates: [37.812217, -122.295252]
     },
     properties: {
       id: "malik"
