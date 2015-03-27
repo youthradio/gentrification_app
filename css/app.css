@@ -121,6 +121,16 @@ section{
     text-decoration: none;
     text-shadow: rgba(64,64,64,1) 0px 0px 10px;
 }
+section a{
+    color: black;
+    color: rgba(128,128,128,0);
+    text-decoration: none;
+    text-shadow: rgba(64,64,64,1) 0px 0px 10px;
+}
+
+section.active a{
+    color: white;
+}
 .feature-img{
     width: 350px;
     opacity: .2;
@@ -172,6 +182,24 @@ body.section-0 #map { opacity:0.5; }
 #mcclymonds.active{
     background-color: rgba(250, 212, 73, .8);
 }
+#joshua.active{
+    background-color: rgba(250, 212, 73, .8);
+}
+#kevin.active{
+    background-color: rgba(250, 212, 73, .8);
+}
+#open.active{
+    background-color: rgba(250, 212, 73, .8);
+}
+#cookie.active{
+    background-color: rgba(250, 212, 73, .8);
+}
+#malik.active{
+    background-color: rgba(250, 212, 73, .8);
+}
+#about.active{
+    background-color: rgba(250, 212, 73, .8);
+}
 
 
 
@@ -191,6 +219,7 @@ body.section-0 #map { opacity:0.5; }
 }
 
 .sprite.active{
+    z-index: 9999!important;
     width: 120px!important;
     height: 120px!important;
 }
@@ -207,51 +236,100 @@ body.section-0 #map { opacity:0.5; }
 }
 
 .sprite-crane {
-   background-position: -355px -5px;
+   background-position: -575px -5px;
 }
 
 .sprite-crane.active {
-    background-position: -225px -5px;
-}
-
-.sprite-defermery {
-    background-position: -575px -5px;
-}
-.sprite-defermery.active {
     background-position: -445px -5px;
 }
 
-.sprite-hotel {
+.sprite-defermery {
     background-position: -795px -5px;
 }
-
-.sprite-hotel.active {
+.sprite-defermery.active {
     background-position: -665px -5px;
 }
 
-.sprite-mcclymonds {
+.sprite-hotel {
     background-position: -1015px -5px;
 }
 
-.sprite-mcclymonds.active {
+.sprite-hotel.active {
     background-position: -885px -5px;
 }
 
+.sprite-mcclymonds {
+    background-position: -1675px -5px;
+}
+
+.sprite-mcclymonds.active {
+    background-position: -1545px -5px;
+}
+
 .sprite-mural {
-    background-position: -1235px -5px;
+    background-position: -2115px -5px;
 }
 
 .sprite-mural.active {
-    background-position: -1105px -5px;
+    background-position: -1985px -5px;
 }
 
 .sprite-station {
-    background-position: -1455px -5px;
+    background-position: -2555px -5px;
 }
 
 .sprite-station.active {
+    background-position: -2425px -5px;
+}
+
+.sprite-cookie {
+    background-position: -355px -5px;
+}
+
+.sprite-cookie.active {
+     background-position: -225px -5px;
+}
+
+.sprite-joshua {
+   background-position: -1235px -5px;
+}
+
+.sprite-joshua.active {
+     background-position: -1105px -5px;
+}
+
+.sprite-kevin {
+    background-position: -1455px -5px;
+}
+
+.sprite-kevin.active {
     background-position: -1325px -5px;
 }
+
+.sprite-open {
+    background-position: -2335px -5px;
+}
+
+.sprite-open.active {
+    background-position: -2205px -5px;
+}
+
+.sprite-malik {
+    background-position: -1895px -5px;
+}
+
+.sprite-malik.active {
+    background-position: -1765px -5px;
+}
+
+.sprite-about {
+     background-position: -2775px -5px
+}
+
+.sprite-about.active {
+    background-position: -2645px -5px;
+}
+
 
 .videoWrapper {
     position: relative;
