@@ -183,19 +183,19 @@ body.section-0 #map { opacity:0.5; }
     background-color: rgba(250, 212, 73, .8);
 }
 #joshua.active{
-    background-color: rgba(250, 212, 73, .8);
+    background-color: rgba(48, 115, 26, .8);
 }
 #kevin.active{
-    background-color: rgba(250, 212, 73, .8);
+    background-color: rgba(54, 231, 202, .8);
 }
 #open.active{
-    background-color: rgba(250, 212, 73, .8);
+    background-color: rgba(169, 231, 128, .8);
 }
 #cookie.active{
-    background-color: rgba(250, 212, 73, .8);
+    background-color: rgba(175, 178, 178, .8);
 }
 #malik.active{
-    background-color: rgba(250, 212, 73, .8);
+    background-color: rgba(55, 174, 181, .8);
 }
 #about.active{
     background-color: rgba(250, 212, 73, .8);
