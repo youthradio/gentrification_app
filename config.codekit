@@ -3883,13 +3883,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/images\/Joshua.png": {
+	"\/images\/joshua.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 77097,
-		"inputAbbreviatedPath": "\/images\/Joshua.png",
-		"outputAbbreviatedPath": "\/images\/Joshua.png",
+		"initialSize": 79220,
+		"inputAbbreviatedPath": "\/images\/joshua.png",
+		"outputAbbreviatedPath": "\/images\/joshua.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
