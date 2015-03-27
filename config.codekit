@@ -3883,6 +3883,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/Joshua.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77097,
+		"inputAbbreviatedPath": "\/images\/Joshua.png",
+		"outputAbbreviatedPath": "\/images\/Joshua.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kevin.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 148769,
+		"inputAbbreviatedPath": "\/images\/kevin.png",
+		"outputAbbreviatedPath": "\/images\/kevin.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/malik.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3948,6 +3970,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/images\/spritesheet.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 396393,
+		"inputAbbreviatedPath": "\/images\/spritesheet.png",
+		"outputAbbreviatedPath": "\/images\/spritesheet.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/station.png": {
 		"fileType": 32768,
