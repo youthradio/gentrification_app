@@ -150,11 +150,13 @@ spots.setGeoJSON(places);
 spots.eachLayer(function(e) {
   var className = 'sprite sprite-' + e.feature.properties.id;
   var coordinates = e.feature.geometry.coordinates;
+  var html = "<div data-id='" + e.feature.properties.id + "'></div>"
   var cssIcon = L.divIcon({
     // Specify a class name we can refer to in CSS.
     className: className,
     // Set marker width and height
-    iconSize: [80, 80]
+    iconSize: [80, 80],
+    html: html
   });
   L.marker(coordinates, {
     icon: cssIcon
@@ -188,7 +190,6 @@ function setId(newId) {
       } else {
         map.setView(coordinates, 16);
       }
-
     }
   });
   // highlight the current section
@@ -217,6 +218,16 @@ narrative.onscroll = function() {
 };
 
 setId('cover');
+
+$(".sprite").on("click", function(){
+  var data = $(this).children().data().id
+  var id = "#" + data
+  window.location.hash = id
+  $("section").removeClass("active")
+  $(id).addClass("active")
+  event.preventDefault();
+});
+
 
 // SPLASH SCREEN
 

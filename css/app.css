@@ -11,6 +11,7 @@ h2, h3, p{
 	font-family: 'Montserrat', sans-serif;
 }
 
+
 #splash{
     height: 100.1%;
     position: absolute;
@@ -73,7 +74,8 @@ h2, h3, p{
     right:0;
     bottom:0px;
     left:0;
-    overflow:auto;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 #map{
@@ -121,19 +123,48 @@ section{
     text-decoration: none;
     text-shadow: rgba(64,64,64,1) 0px 0px 10px;
 }
+section audio{
+    opacity: .1;
+    transition:opacity 500ms;
+    -moz-transition:opacity 500ms;
+    -webkit-transition:opacity 500ms;
+}
+section.active audio{
+    opacity: 1;
+}
+
+section .videoWrapper{
+    opacity: .1;
+    transition:opacity 500ms;
+    -moz-transition:opacity 500ms;
+    -webkit-transition:opacity 500ms;
+}
+section.active .videoWrapper{
+    opacity: 1;
+}
+section h3{
+    color: rgba(128,128,128,0);
+    text-shadow: rgba(64,64,64,1) 0px 0px 40px;
+}
+
+section.active h3{
+    color: black;
+    text-shadow: rgba(64,64,64,0) 0px 0px 4px;
+}
+
 section a{
     color: black;
     color: rgba(128,128,128,0);
-    text-decoration: none;
     text-shadow: rgba(64,64,64,1) 0px 0px 10px;
 }
 
 section.active a{
     color: white;
+    text-shadow: rgba(64,64,64,0) 0px 0px 4px;
 }
 .feature-img{
     width: 350px;
-    opacity: .2;
+    opacity: .1;
     transition:opacity 500ms;
     -moz-transition:opacity 500ms;
     -webkit-transition:opacity 500ms;
