@@ -11,6 +11,59 @@ h2, h3, h4{
 	font-family: 'Montserrat', sans-serif;
 }
 
+a{
+    color: black;
+    transition:color 500ms;
+    -moz-transition:color 500ms;
+    -webkit-transition:color 500ms;
+}
+
+a:hover{
+    color:rgb(165, 192, 196);
+
+}
+
+.hidden{
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    opacity: 0;
+    transition:opacity 500ms;
+    -moz-transition:opacity 500ms;
+    -webkit-transition:opacity 500ms;
+}
+#modal-trigger{
+    position: absolute;
+    z-index: 1000;
+    top: 20px;
+    right: 20px;
+    padding: 15px;
+    height: 80px;
+    width: 80px;
+    border-radius: 150px;
+    transition:background-color 500ms;
+    -moz-transition:color background-color 500ms;
+    -webkit-transition:color background-color 500ms;
+}
+#modal-trigger:hover{
+    background-color: rgba(88, 88, 88, .8);
+}
+
+#plus{
+    font-size: 50px;
+    color: black;
+    transition:color 500ms;
+    -moz-transition:color 500ms;
+    -webkit-transition:color 500ms;
+}
+
+#modal-trigger:hover #plus{
+    color: rgb(165, 192, 196);
+}
+
+#modal-trigger:hover .hidden{
+    opacity: 1;
+}
 
 #splash{
     height: 100.1%;

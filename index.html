@@ -9,6 +9,7 @@
 <title>West Side Stories</title>
 <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/foundation-icons.css">
 <link rel="stylesheet" type="text/css" href="bower_components/foundation/css/foundation.css">
 <link rel="stylesheet" type="text/css" href="bower_components/mapbox.js/mapbox.css">
 <link rel="stylesheet" href="css/app.css" />
@@ -113,6 +114,7 @@
         <hr>
         <p>Ericka Huggins is a professor of sociology and women's studies, and the former director of the Black Panther Party's Oakland Community School. She joined the BPP as a teenager in 1967.</p>
         <audio id="audio-player" src="media/ErickaHuggins_combined.mp3" type="audio/mp3" controls="controls"></audio>
+        <p><small><a target="_blank" href="http://www.marktribe.net/port-huron-project/the-liberation-of-our-people-angela-davis-1969-2008/">Source</a></small></p>
       </section>
       <section id='open'>
         <h3>The Open House</h3>
@@ -194,6 +196,15 @@
       </section>
     </article>
 
+    <div id="modal-trigger" class="text-center">
+      <a href="#" data-reveal-id="myModal"><i id="plus" class="fi-plus large"></i></a>
+      <p class="hidden">Add Your Story!</p>
+    </div>
+
+    <div id="myModal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+        <iframe src="https://docs.google.com/forms/d/1u37pdHOJY3LS0yegq1LKjLw9_ktsDTE80ReeIi2VWGo/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+    </div>
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
