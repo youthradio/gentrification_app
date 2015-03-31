@@ -7,172 +7,189 @@ var map = L.mapbox.map('map', 'laurenbenichou.54e91cf8', {
   zoomControl: false
 }).setView([37.812, -122.294], 15);
 
-map.scrollWheelZoom.disable();
-
-var places = {
-  type: 'FeatureCollection',
-  features: [{
-    geometry: {
-      type: "Point",
-      coordinates: [37.812, -122.294]
-    },
-    properties: {
-      id: "cover",
-      zoom: 15
-    },
-    type: 'Feature'
-  }, {
-    geometry: {
-      type: "Point",
-      coordinates: [37.812515, -122.287030]
-    },
-    properties: {
-      id: "defermery"
-    },
-    type: 'Feature'
-  }, {
-    geometry: {
-      type: "Point",
-      coordinates: [37.805054, -122.295128]
-    },
-    properties: {
-      id: "bart"
-    },
-    type: 'Feature'
-  }, {
-    geometry: {
-      type: "Point",
-      coordinates: [37.815969, -122.316791]
-    },
-    properties: {
-      id: "crane"
-    },
-    type: 'Feature'
-  }, {
-    geometry: {
-      type: "Point",
-      coordinates: [37.815694, -122.297240]
-    },
-    properties: {
-      id: "station"
-    },
-    type: 'Feature'
-  }, {
-    geometry: {
-      type: "Point",
-      coordinates: [37.808917, -122.292539]
-    },
-    properties: {
-      id: "mural"
-    },
-    type: 'Feature'
-  }, {
-    geometry: {
-      type: "Point",
-      coordinates: [37.826317, -122.278605]
-    },
-    properties: {
-      id: "hotel"
-    },
-    type: 'Feature'
-  }, {
-    geometry: {
-      type: "Point",
-      coordinates: [37.818513, -122.278765]
-    },
-    properties: {
-      id: "mcclymonds"
-    },
-    type: 'Feature'
-  }, {
-    geometry: {
-      type: "Point",
-      coordinates: [37.812217, -122.295252]
-    },
-    properties: {
-      id: "malik"
-    },
-    type: 'Feature'
-  }, {
-    geometry: {
-      type: "Point",
-      coordinates: [37.811607, -122.294480]
-    },
-    properties: {
-      id: "cookie"
-    },
-    type: 'Feature'
-  }, {
-    geometry: {
-      type: "Point",
-      coordinates: [37.812878, -122.294654]
-    },
-    properties: {
-      id: "kevin"
-    },
-    type: 'Feature'
-  }, {
-    geometry: {
-      type: "Point",
-      coordinates: [37.810850, -122.296330]
-    },
-    properties: {
-      id: "open"
-    },
-    type: 'Feature'
-  }, {
-    geometry: {
-      type: "Point",
-      coordinates: [37.809877, -122.294366]
-    },
-    properties: {
-      id: "joshua"
-    },
-    type: 'Feature'
-  }, {
-    geometry: {
-      type: "Point",
-      coordinates: [37.807101, -122.269838]
-    },
-    properties: {
-      id: "about"
-    },
-    type: 'Feature'
-  }]
-};
-
+// Create a featurelayer for markers and add to map
 var spots = L.mapbox.featureLayer()
   .addTo(map);
 
-spots.setGeoJSON(places);
-
-// define icons as cssIcons
-spots.eachLayer(function(e) {
-  var className = 'sprite sprite-' + e.feature.properties.id;
-  var coordinates = e.feature.geometry.coordinates;
-  var html = "<div data-id='" + e.feature.properties.id + "'></div>"
-  var cssIcon = L.divIcon({
-    // Specify a class name we can refer to in CSS.
-    className: className,
-    // Set marker width and height
-    iconSize: [80, 80],
-    html: html
-  });
-  L.marker(coordinates, {
-    icon: cssIcon
-  }).addTo(map);
-});
+// Disable the zoom on scroll
+map.scrollWheelZoom.disable();
 
 // Array of story section elements.
 var sections = $('section');
 var narrative = $("#narrative")[0];
 var currentId = 'cover';
 
+map.on('popupopen', function() {
+        console.log('popupopen');
+        debugger
+    });
+
+function setCustomMarkers() {
+  var places = {
+    type: 'FeatureCollection',
+    features: [{
+      geometry: {
+        type: "Point",
+        coordinates: [37.812, -122.294]
+      },
+      properties: {
+        id: "cover",
+        zoom: 15
+      },
+      type: 'Feature'
+    }, {
+      geometry: {
+        type: "Point",
+        coordinates: [37.812515, -122.287030]
+      },
+      properties: {
+        id: "defermery"
+      },
+      type: 'Feature'
+    }, {
+      geometry: {
+        type: "Point",
+        coordinates: [37.805054, -122.295128]
+      },
+      properties: {
+        id: "bart"
+      },
+      type: 'Feature'
+    }, {
+      geometry: {
+        type: "Point",
+        coordinates: [37.815969, -122.316791]
+      },
+      properties: {
+        id: "crane"
+      },
+      type: 'Feature'
+    }, {
+      geometry: {
+        type: "Point",
+        coordinates: [37.815694, -122.297240]
+      },
+      properties: {
+        id: "station"
+      },
+      type: 'Feature'
+    }, {
+      geometry: {
+        type: "Point",
+        coordinates: [37.808917, -122.292539]
+      },
+      properties: {
+        id: "mural"
+      },
+      type: 'Feature'
+    }, {
+      geometry: {
+        type: "Point",
+        coordinates: [37.826317, -122.278605]
+      },
+      properties: {
+        id: "hotel"
+      },
+      type: 'Feature'
+    }, {
+      geometry: {
+        type: "Point",
+        coordinates: [37.818513, -122.278765]
+      },
+      properties: {
+        id: "mcclymonds"
+      },
+      type: 'Feature'
+    }, {
+      geometry: {
+        type: "Point",
+        coordinates: [37.812217, -122.295252]
+      },
+      properties: {
+        id: "malik"
+      },
+      type: 'Feature'
+    }, {
+      geometry: {
+        type: "Point",
+        coordinates: [37.811607, -122.294480]
+      },
+      properties: {
+        id: "cookie"
+      },
+      type: 'Feature'
+    }, {
+      geometry: {
+        type: "Point",
+        coordinates: [37.812878, -122.294654]
+      },
+      properties: {
+        id: "kevin"
+      },
+      type: 'Feature'
+    }, {
+      geometry: {
+        type: "Point",
+        coordinates: [37.810850, -122.296330]
+      },
+      properties: {
+        id: "open"
+      },
+      type: 'Feature'
+    }, {
+      geometry: {
+        type: "Point",
+        coordinates: [37.809877, -122.294366]
+      },
+      properties: {
+        id: "joshua"
+      },
+      type: 'Feature'
+    }, {
+      geometry: {
+        type: "Point",
+        coordinates: [37.807101, -122.269838]
+      },
+      properties: {
+        id: "about"
+      },
+      type: 'Feature'
+    }]
+  };
+
+  spots.setGeoJSON(places);
+
+  // define icons as cssIcons
+  spots.eachLayer(function(e) {
+    var className = 'sprite sprite-' + e.feature.properties.id;
+    var coordinates = e.feature.geometry.coordinates;
+    var html = "<div data-id='" + e.feature.properties.id + "'></div>"
+    var cssIcon = L.divIcon({
+      // Specify a class name we can refer to in CSS.
+      className: className,
+      // Set marker width and height
+      iconSize: [80, 80],
+      html: html
+    });
+    if (e.feature.properties.id === "about") {
+      L.marker(coordinates, {
+        icon: cssIcon
+      }).addTo(map).bindPopup('<h1> The Team </h1>')
+    } else {
+      L.marker(coordinates, {
+        icon: cssIcon
+      }).addTo(map);
+    }
+  })
+}
+
+
+
+
 function setId(newId) {
   // If ID hasn't change, do nothing
   if (newId === currentId) return;
   if (newId === 'cover') {
-    console.log(newId)
     $('body').attr('class', 'section-0');
   } else {
     $('body').attr('class', ' ');
@@ -182,8 +199,8 @@ function setId(newId) {
     if (layer.feature.properties.id === newId) {
       var coordinates = layer.feature.geometry.coordinates;
       var all_el = $(".sprite");
-      all_el.removeClass("active");
       var el = $("div[class*='" + newId + "']")[0];
+      all_el.removeClass("active");
       el.className = el.className + " active";
       if (newId === "cover") {
         map.setView(coordinates, 15);
@@ -217,16 +234,18 @@ narrative.onscroll = function() {
   setId(newId);
 };
 
-setId('cover');
+function markersOnClik() {
+  $(".sprite").on("click", function() {
+    var data = $(this).children().data().id
+    var id = "#" + data
+    window.location.hash = id
+    $("section").removeClass("active")
+    $(id).addClass("active")
+    setId(data);
+    event.preventDefault();
+  });
+}
 
-$(".sprite").on("click", function(){
-  var data = $(this).children().data().id
-  var id = "#" + data
-  window.location.hash = id
-  $("section").removeClass("active")
-  $(id).addClass("active")
-  event.preventDefault();
-});
 
 
 // SPLASH SCREEN
@@ -244,8 +263,6 @@ function fullscreenFix() {
 }
 
 
-$(window).resize(fullscreenFix);
-fullscreenFix();
 
 function fadeOnScroll() {
   var target = $("#splash");
@@ -253,4 +270,10 @@ function fadeOnScroll() {
     target.fadeOut(1500);
   });
 }
+
+setCustomMarkers()
+markersOnClik()
+setId('cover');
 fadeOnScroll();
+$(window).resize(fullscreenFix);
+fullscreenFix();
