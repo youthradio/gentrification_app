@@ -217,19 +217,25 @@ section a{
     text-shadow: rgba(64,64,64,1) 0px 0px 10px;
 }
 
+section img{
+    opacity: .1;
+}
 section.active a{
     color: #514f4f;
     text-shadow: rgba(64,64,64,0) 0px 0px 4px;
 }
 .feature-img{
     width: 350px;
+}
+
+section img{
     opacity: .1;
     transition:opacity 500ms;
     -moz-transition:opacity 500ms;
     -webkit-transition:opacity 500ms;
 }
 
-section.active .feature-img{
+section.active img{
     opacity: 1;
 }
 
