@@ -264,16 +264,20 @@ function fullscreenFix() {
 
 
 
-function fadeOnScroll() {
+function fadeOnClick() {
   var target = $("#splash");
-  $(window).scroll(function() {
-    target.fadeOut(1500);
+  var target_two = $("#main-content-wrapper")
+  $(".cust-button").on("click", function(e) {
+    e.preventDefault()
+    target.fadeOut("slow");
+    target_two.addClass("visible");
+
   });
 }
 
 setCustomMarkers()
 markersOnClik()
 setId('cover');
-fadeOnScroll();
+fadeOnClick();
 $(window).resize(fullscreenFix);
 fullscreenFix();

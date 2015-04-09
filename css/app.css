@@ -37,9 +37,9 @@ a:hover{
     z-index: 1000;
     top: 20px;
     right: 20px;
-    padding: 15px;
     height: 80px;
     width: 80px;
+    line-height: 80px;
     border-radius: 150px;
     transition:background-color 500ms;
     -moz-transition:color background-color 500ms;
@@ -99,8 +99,7 @@ a:hover{
 }
 
 .content-c{
-    position: absolute;
-    bottom: 20px;
+    margin-top: 20px;
     /*Center on all browser when absolute*/
     margin-left: auto;
     margin-right: auto;
@@ -120,6 +119,27 @@ a:hover{
 .round{
     border-radius: 50px;
     width: 100px;
+}
+
+.cust-button{
+    background-color: rgba(147, 181, 186, .3)!important;
+    font-family: 'Montserrat', sans-serif;
+}
+.cust-button:hover{
+    background-color: rgba(147, 181, 186, .9)!important;
+    color: white!important;
+}
+
+
+#main-content-wrapper{
+    opacity: 0;
+    transition:opacity 500ms;
+    -moz-transition:opacity 500ms;
+    -webkit-transition:opacity 500ms;
+}
+
+#main-content-wrapper.visible{
+    opacity: 1;
 }
 
 #narrative{
