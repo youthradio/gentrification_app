@@ -504,6 +504,15 @@ body.section-0 #map { opacity:0.5; }
         width:100%;
         height:115%;
     }
+    #about  p{
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 980px){
+    p{
+        font-size: 12px;
+    }
 }
 
 @media (min-width:1280px) {
@@ -511,4 +520,5 @@ body.section-0 #map { opacity:0.5; }
         font-size:18px;
         line-height:24px;
     }
+
 }

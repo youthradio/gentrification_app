@@ -19,11 +19,6 @@ var sections = $('section');
 var narrative = $("#narrative")[0];
 var currentId = 'cover';
 
-map.on('popupopen', function() {
-        console.log('popupopen');
-        debugger
-    });
-
 function setCustomMarkers() {
   var places = {
     type: 'FeatureCollection',
@@ -174,7 +169,7 @@ function setCustomMarkers() {
     if (e.feature.properties.id === "about") {
       L.marker(coordinates, {
         icon: cssIcon
-      }).addTo(map).bindPopup('<h1> The Team </h1>')
+      }).addTo(map).bindPopup('<h1> Youth Radio Interactive HQ </h1>')
     } else {
       L.marker(coordinates, {
         icon: cssIcon
