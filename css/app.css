@@ -563,7 +563,7 @@ body.section-0 #map { opacity:0.5; }
     #myModal{
         -webkit-overflow-scrolling: touch;
         top:0;
-        max-height: 460px;
+        max-height: 460px!important;
     }
     body.reveal-modal{
         position : fixed;
