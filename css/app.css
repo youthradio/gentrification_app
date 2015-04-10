@@ -32,6 +32,10 @@ a:hover{
     -moz-transition:opacity 500ms;
     -webkit-transition:opacity 500ms;
 }
+.hidden.touch{
+    opacity: 1;
+}
+
 #modal-trigger{
     position: absolute;
     z-index: 1000;
@@ -49,6 +53,19 @@ a:hover{
     background-color: rgba(88, 88, 88, .8);
 }
 
+#modal-trigger-touch{
+        position: absolute;
+        z-index: 1000;
+        top: 20px;
+        right: 20px;
+        height: 80px;
+        width: 80px;
+        line-height: 80px;
+        border-radius: 150px;
+        background-color: rgba(88, 88, 88, .8);
+
+    }
+
 #myModal{
     top: 50px;
     height: 80%;
@@ -62,6 +79,11 @@ a:hover{
     transition:color 500ms;
     -moz-transition:color 500ms;
     -webkit-transition:color 500ms;
+}
+
+#plus-touch{
+    font-size: 50px;
+    color: rgb(165, 192, 196);
 }
 
 #modal-trigger:hover #plus{
@@ -495,26 +517,28 @@ body.section-0 #map { opacity:0.5; }
         font-size:12px;
         line-height:16px;
     }
-
-    .formWrapper{
-        -webkit-overflow-scrolling: touch;
-/*        max-height: 480px ;*/
-        padding-bottom: 20%;
-    }
-
     #modal-trigger{
         top: 80%!important;
         height: 50px;
         width: 50px;
         line-height: 50px;
-        border-radius: 150px;
-        background-color: rgba(88, 88, 88, .8);
-
     }
+
+    #modal-trigger-touch{
+        top: 80%!important;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        border-radius: 150px;
+    }
+
     #plus{
-        font-size: 30px;
         color: rgb(165, 192, 196);
     }
+    #plus-touch, #plus{
+        font-size: 30px;
+    }
+
     .hidden{
         margin-top: 5px;
         font-size: 10px;
@@ -536,7 +560,6 @@ body.section-0 #map { opacity:0.5; }
     #cover h2{
         font-size: 15px;
     }
-
 
     #narrative {
         position: fixed;
