@@ -48,9 +48,10 @@ a:hover{
 #modal-trigger:hover{
     background-color: rgba(88, 88, 88, .8);
 }
+
 #myModal{
-    top: 0;
-    height: 100%;
+    top: 50px;
+    height: 80%;
     background-color: rgb(166, 198, 203);
     overflow: scroll;
 }
@@ -72,7 +73,7 @@ a:hover{
 }
 
 #splash{
-    height: 100.1%;
+    height: 100%;
     position: absolute;
     top: 0;
     right: 0;
@@ -138,6 +139,9 @@ a:hover{
 
 
 #main-content-wrapper{
+    position: relative;
+    height:100%;
+    overflow: hidden;
     opacity: 0;
     transition:opacity 500ms;
     -moz-transition:opacity 500ms;
@@ -545,15 +549,18 @@ body.section-0 #map { opacity:0.5; }
     }
     #map  {
         width:100%;
-        height:115%;
+        height:130%;
     }
     #about  p{
         font-size: 12px;
     }
+    #myModal{
+        top:0;
+    }
 }
 
 @media(max-width: 980px){
-    p{
+    #cover p, p{
         font-size: 12px;
     }
 }
