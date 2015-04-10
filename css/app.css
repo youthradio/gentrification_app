@@ -497,7 +497,7 @@ body.section-0 #map { opacity:0.5; }
     }
     .formWrapper{
         overflow: scroll;
-        height: 600px;
+        max-height: 480px ;
     }
 
     #modal-trigger{
