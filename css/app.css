@@ -491,13 +491,6 @@ body.section-0 #map { opacity:0.5; }
         overflow: none;
     }
 
-    .formWrapper{
-        height: 600px;
-    }
-    .formWrapper iframe{
-         height: 600px;
-    }
-
     p{
         font-size:12px;
         line-height:16px;
@@ -564,6 +557,9 @@ body.section-0 #map { opacity:0.5; }
     }
     #myModal{
         top:0;
+    }
+    .reveal-modal{
+        position : fixed;
     }
 }
 
