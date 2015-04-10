@@ -475,6 +475,7 @@ body.section-0 #map { opacity:0.5; }
     position: relative;
     padding-top: 25px;
     height: 100%;
+    overflow: scroll;
 }
 
 .formWrapper iframe{
@@ -489,15 +490,6 @@ body.section-0 #map { opacity:0.5; }
     body{
         height: 100%;
         overflow: none;
-    }
-    .formWrapper{
-        position: relative;
-        padding-top: 25px;
-        height: 400px;
-    }
-
-    .formWrapper iframe{
-        height: 400px;
     }
 
     p{
