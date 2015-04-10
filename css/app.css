@@ -495,10 +495,11 @@ body.section-0 #map { opacity:0.5; }
         font-size:12px;
         line-height:16px;
     }
-    .formWrapper{
-        -webkit-overflow-scrolling: touch;
+
+/*    .formWrapper{
+
         max-height: 480px ;
-    }
+    }*/
 
     #modal-trigger{
         top: 80%!important;
@@ -560,9 +561,11 @@ body.section-0 #map { opacity:0.5; }
         font-size: 12px;
     }
     #myModal{
+        -webkit-overflow-scrolling: touch;
         top:0;
+        max-height: 460px;
     }
-    .reveal-modal{
+    body.reveal-modal{
         position : fixed;
     }
 }
