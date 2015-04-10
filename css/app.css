@@ -496,7 +496,7 @@ body.section-0 #map { opacity:0.5; }
         line-height:16px;
     }
     .formWrapper{
-        overflow: scroll;
+        -webkit-overflow-scrolling: touch;
         max-height: 480px ;
     }
 
