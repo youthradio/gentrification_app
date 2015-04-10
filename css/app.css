@@ -557,6 +557,7 @@ body.section-0 #map { opacity:0.5; }
     }
     #myModal{
         top:0;
+        overflow: scroll;
     }
     .reveal-modal{
         position : fixed;
