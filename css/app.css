@@ -491,6 +491,10 @@ body.section-0 #map { opacity:0.5; }
         overflow: none;
     }
 
+    .formWrapper iframe{
+        height: 400px;
+    }
+
     p{
         font-size:12px;
         line-height:16px;
