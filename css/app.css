@@ -494,11 +494,15 @@ body.section-0 #map { opacity:0.5; }
     .formWrapper{
         height: 600px;
     }
+    .formWrapper iframe{
+         height: 600px;
+    }
 
     p{
         font-size:12px;
         line-height:16px;
     }
+
     #modal-trigger{
         top: 80%!important;
         height: 50px;
@@ -560,7 +564,6 @@ body.section-0 #map { opacity:0.5; }
     }
     #myModal{
         top:0;
-        height: 200px;
     }
 }
 
