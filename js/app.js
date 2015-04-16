@@ -270,6 +270,18 @@ function fadeOnClick() {
   });
 }
 
+function animateLogo(){
+  var target = $("#logo")
+    setTimeout(function(){
+    target.addClass("show"); }, 500);
+  setTimeout(function(){
+    target.fadeIn();
+    target.addClass("move-left");
+    $(".target").addClass("show");
+  }, 1500);
+}
+
+animateLogo()
 setCustomMarkers()
 markersOnClik()
 setId('cover');
