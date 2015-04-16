@@ -15,13 +15,6 @@ h1, h2{
 }
 
 
-.move-left{
-  transform:translate(-180px, 0);
-  -moz-transition:translate(-180px, 0);
-  -webkit-transition:translate(-180px, 0)!important;
-  -o-transition:translate(-180px, 0);
-}
-
 a {
   color: black;
   transition: color 500ms;
@@ -163,11 +156,17 @@ a:hover {
 .content-a img{
   height: 50px;
   opacity: 0;
-  -webkit-transition:translate(0, 0);
   transition: all 500ms;
   -moz-transition: all 500ms;
   -webkit-transition: all 500ms;
   -o-transition: all 500ms;
+}
+
+.move-left{
+  transform:translate(-180px, 0);
+  -moz-transform:translate(-180px, 0);
+  -webkit-transform:translate(-180px, 0)!important;
+  -o-transform:translate(-180px, 0);
 }
 
 .sub{
