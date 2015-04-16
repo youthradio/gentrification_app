@@ -272,7 +272,7 @@ function fadeOnClick() {
 
 function animateLogo(){
   var target = $("#logo")
-    setTimeout(function(){
+  setTimeout(function(){
     target.addClass("show"); }, 500);
   setTimeout(function(){
     target.fadeIn();
