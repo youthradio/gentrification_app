@@ -17,6 +17,9 @@ h1, h2{
 
 .move-left{
   transform:translate(-180px, 0);
+  -moz-transition:translate(-180px, 0);
+  -webkit-transition:translate(-180px, 0);
+  -o-transition:translate(-180px, 0);
 }
 
 a {
