@@ -74,6 +74,7 @@
 
         <article id='narrative'>
             <section class='cover active' id='cover'>
+                <i class="fi-share share-bttn"></i>
                 <h1>West Side Stories</h1>
 
                 <h2>Gentrification in West Oakland</h2>
@@ -90,9 +91,12 @@
                 new to a place, it's good to know a thing or two about its
                 history. So West Oakland's proud past is one of the most
                 important stories you'll learn about in West Side
-                Stories.</p><img class="scroll" src="images/mouse_grey.png">
+                Stories.</p>
+
+                <img class="scroll" src="images/mouse_grey.png">
 
                 <h3>scroll</h3>
+
             </section>
 
             <section id='malik'>
@@ -435,18 +439,69 @@
 
         <!-- Modal -->
         <div class="reveal-modal text-center" data-reveal="" id="myModal">
-            <div class="formWrapper">
-                <iframe frameborder="0" height="900" marginheight="0"
-                marginwidth="0" src=
-                "https://docs.google.com/forms/d/1u37pdHOJY3LS0yegq1LKjLw9_ktsDTE80ReeIi2VWGo/viewform?embedded=true"
-                width="760">Loading...</iframe>
-            </div><a class="close-reveal-modal">&#215;</a>
+            <form data-abide id="ajax-contact" method="post" action="mailer.php">
+              <fieldset>
+                <legend><h1>Submit Your Stories</h1></legend>
+                <div class="row">
+                    <div class="large-12 columns">
+                        <p>We would love to consider adding your story to our map. Note that submitting a story does not guarantee that we will publish it. </p>
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="large-4 columns">
+                    <label>First Name <small>required</small></label>
+                    <input id="name" name="first_name" type="text" required placeholder="Enter your name or nickname.">
+                    <small class="error">A name or nickname is required.</small>
+                  </div>
+                  <div class="large-4 columns">
+                    <label>Last Name <small>optional</small></label>
+                    <input id="last_name" name="last_name" type="text" placeholder="Enter your last name.">
+                  </div>
+                <div class="large-4 columns">
+                    <label>Email <small>required</small></label>
+                    <input id="email" type="email" name="email" required placeholder="Please enter your email.">
+                     <small class="error">An email address is required.</small>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="large-12 columns">
+                    <label>Your Story <small>required</small></label>
+                    <textarea id="story" name="story" required placeholder="Share your story."></textarea>
+                     <small class="error">A story is required</small>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <label>Location <small>required</small></label>
+                    <textarea id="location" name="location" required placeholder="Address or cross streets ok."></textarea>
+                     <small class="error">We need a location to map your story.</small>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="large-12 columns">
+                    <label>Suggested Image <small>optional but we'd love a suggestion</small></label>
+                    <textarea id="image_url" name="image_url" type="url" placeholder="Paste URL here. This will help us with creating an icon."></textarea>
+                  </div>
+                </div>
+              <div class="row agreement">
+                    <div class="large-12 columns">
+                        <p>Youth Radio's West Side Stories Agreement</p>
+                        <small>By pressing “Submit,” I agree that I wish to submit material (the “Contribution”) as part of West Side Stories, a project of Youth Radio. I affirm that I am over 13 years of age, and I affirm that I have taken all steps necessary to make this agreement binding. The Contribution I have submitted is original. I affirm that none of it is copyrighted by or in any way the property of others, and I agree to indemnify Youth Radio in the event anyone claims that it is their material and that I do not own it. In consideration of the recording of the Contribution, I hereby grant to Youth Radio a non-exclusive, worldwide, irrevocable, fully-paid-up license to make all uses whatsoever of the Contribution, including without limitation editing, broadcasting, streaming, publishing, and copying the Contribution for both commercial and non-commercial purposes, and including the use of my name, in connection with that use. Youth Radio may make these uses and may assign or sublicense these rights without permission from or payment to me. I hereby release Youth Radio and its licensees, including their respective employees, directors, officers, agents, successors, and assigns, from all claims which I now have, have ever had or may hereafter have against them relating in any way to the Contribution. This agreement shall be governed by, and construed in accordance with, the internal law of the State of California, without regard to conflicts of laws, and any dispute arising out of this agreement shall be brought in the federal or state courts located in Oakland, California.</small>
+                    </div>
+                </div>
+                    <button id="submit_form" type="submit" class="button secondary cust-button">Submit</button>
+                </fieldset>
+            </form>
+            <div id="form-messages"></div>
+            <a class="close-reveal-modal">&#215;</a>
         </div>
 
-        <!-- Script -->
-        <script src="bower_components/jquery/dist/jquery.min.js"></script>
-        <script src="bower_components/foundation/js/foundation.min.js"></script>
-        <script src="js/app.js"></script>
+    <!-- Script -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/mailer.js"></script>
 
 </body>
 </html>
