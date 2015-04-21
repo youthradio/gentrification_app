@@ -287,8 +287,12 @@ function initSoc(){
     facebook: {
       app_id: "459957714160273"
       },
+      twitter: {
+        description:"West Side Stories: A New Interactive From Youth Radio Interactive via @youthradio."
+      }
     }
   });
+
 }
 
 initSoc()
