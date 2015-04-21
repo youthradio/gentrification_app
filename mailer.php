@@ -57,8 +57,4 @@
         echo "There was a problem with your submission, please try again.";
     }
 
-    if(http_response_code(405)){
-        echo "There was a problem with your submission, please try again.";
-    }
-
 ?>
