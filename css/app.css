@@ -597,20 +597,33 @@ body.section-0 #map {
     overflow: none;
   }
 
+  .share-bttn{
+    left: 20px;
+  }
+  .share-bttn.sharer-0 .social ul {
+    top: -190px;
+  }
+.share-bttn.sharer-0 .social ul li {
+   float: none!important;
+  }
+  .share-bttn.sharer-0 .social.networks-5.center {
+  margin-left: 0!important;
+}
+
   p {
     font-size: 12px;
     line-height: 16px;
   }
 
   #modal-trigger {
-    top: 80%!important;
+    top: 82%!important;
     height: 50px;
     width: 50px;
     line-height: 50px;
   }
 
   #modal-trigger-touch {
-    top: 80%!important;
+    top: 82%!important;
     height: 50px;
     width: 50px;
     line-height: 50px;
