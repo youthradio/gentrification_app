@@ -2,6 +2,14 @@ html, body, #narrative {
   height: 100%;
 }
 
+.success{
+  color: #30731a;
+}
+
+.error{
+  color: #f9904a;
+}
+
 h1 {
   font-family: 'Pacifico', cursive;
 }

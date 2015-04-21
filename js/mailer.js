@@ -22,8 +22,8 @@ $(function() {
       }).done(function(response) {
 
     // // Make sure that the formMessages div has the 'success' class.
-        // $(formMessages).removeClass('error');
-        // $(formMessages).addClass('success');
+        $(formMessages).removeClass('error');
+        $(formMessages).addClass('success');
 
         // Set the message text.
         $(formMessages).text(response);
@@ -37,15 +37,14 @@ $(function() {
         $('#image_url').val('');
       }).fail(function(data) {
         // // Make sure that the formMessages div has the 'error' class.
-        // $(formMessages).removeClass('success');
-        // $(formMessages).addClass('error');
+        $(formMessages).removeClass('success');
+        $(formMessages).addClass('error');
 
         // Set the message text.
-        if (data.responseText !== '') {
-            debugger
-          $(formMessages).text(data.responseText);
+        if (data.status !== 405) {
+          $(formMessages).text("Oops! An error occurred and your message could not be sent. We're working on it!. ");
         } else {
-          $(formMessages).text('Oops! An error occured and your message could not be sent.');
+          $(formMessages).text('Oops! An error occurred and your message could not be sent.');
         }
       });
     });
