@@ -213,7 +213,7 @@ a:hover {
 
 .share-bttn{
   position: fixed;
-  right: 47%;
+  right: 48%;
   top: 90%;
 }
 
@@ -596,7 +596,12 @@ body.section-0 #map {
     height: 100%;
     overflow: none;
   }
-
+  .move-left {
+    transform: translate(-169px, 0);
+    -moz-transform: translate(-169px, 0);
+    -webkit-transform: translate(-169px, 0)!important;
+    -o-transform: translate(-169px, 0);
+  }
   .share-bttn{
     left: 20px;
   }
