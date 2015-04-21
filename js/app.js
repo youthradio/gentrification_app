@@ -281,6 +281,17 @@ function animateLogo(){
   }, 1500);
 }
 
+function initSoc(){
+  new Share(".share-bttn", {
+  networks: {
+    facebook: {
+      app_id: "459957714160273"
+      },
+    }
+  });
+}
+
+initSoc()
 animateLogo()
 setCustomMarkers()
 markersOnClik()

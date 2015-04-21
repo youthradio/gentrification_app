@@ -212,10 +212,9 @@ a:hover {
 }
 
 .share-bttn{
-  position: absolute;
-  right: 20px;
-  top: 10px;
-  font-size: 26px;
+  position: fixed;
+  right: 50%;
+  top: 90%;
 }
 
 .cust-button {
